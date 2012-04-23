@@ -104,7 +104,9 @@ channels = (
   { name = "silc"; chatnet = "silc"; autojoin = "No"; },
   { name = "#phrug"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#rubyonrails"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#railsbridge"; chatnet = "Freenode"; autojoin = "yes"; }
+  { name = "#railsbridge"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#javascript"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#documentcloud"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 aliases = {
