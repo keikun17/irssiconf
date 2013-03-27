@@ -105,6 +105,7 @@ channels = (
   { name = "#phrug"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#phrug"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#makersph"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#manilajs"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#railsbridge"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#javascript"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#documentcloud"; chatnet = "Freenode"; autojoin = "yes"; }
