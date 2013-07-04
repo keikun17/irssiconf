@@ -10,3 +10,8 @@ Usage
 ---
 1.) Start irssi in screen mode with `screen irssi`
 2.) type `/nicklist screen` <to be autoloaded pag sinipag>
+
+Installation
+---
+
+clone to ~/.irssi
