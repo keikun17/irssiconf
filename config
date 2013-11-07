@@ -347,3 +347,7 @@ hilights = (
   { text = "Cakey"; nick = "yes"; word = "yes"; },
   { text = "Buddy"; nick = "yes"; word = "yes"; }
 );
+ignores = (
+  { mask = "wuzzzzah"; level = "ALL"; },
+  { mask = "wuzzzzaah"; level = "ALL"; }
+);
