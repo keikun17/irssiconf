@@ -283,9 +283,23 @@ settings = {
     real_name = "Buddy Magsipoc";
     user_name = "miku";
     nick = "Cakey";
+    awaylog_file = "~/.irssi/away.log";
+
   };
   "fe-text" = { actlist_sort = "refnum"; };
-  "fe-common/core" = { theme = "doom"; };
+  "fe-common/core" = {
+    theme = "doom";
+    autocreate_own_query = "no";
+    autocreate_query_level = "DCCMSGS";
+    use_status_window = "no";
+    use_msgs_window = "no";
+    show_names_on_join = "yes";
+    autolog = "yes";
+    autolog_path = "~/.irssi/irclogs/$tag/$0.log";
+    print_active_channel = "yes";
+    awaylog_colors = "no";
+    completion_char = ",";
+  };
   "perl/core/scripts" = {
     awl_display_key = "$Q%K|%n$H$C$S";
     awl_block = "-15";
