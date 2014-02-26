@@ -288,23 +288,25 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = {
-    theme = "doom";
-    autocreate_own_query = "no";
-    autocreate_query_level = "DCCMSGS";
-    use_status_window = "no";
-    use_msgs_window = "no";
-    show_names_on_join = "yes";
-    autolog = "yes";
-    autolog_path = "~/.irssi/irclogs/$tag/$0.log";
-    print_active_channel = "yes";
-    awaylog_colors = "no";
-    completion_char = ",";
+    theme = "solarized-universal";
+    hilight_color = "= %R";
   };
   "perl/core/scripts" = {
-    awl_display_key = "$Q%K|%n$H$C$S";
-    awl_block = "-15";
+    ### For Solarized adv_windowlist.pl script
+    awl_display_key_active = "%k%2[$Q=$N:$C]%n";
+    awl_display_nokey_active = "%k%2[$N:$C]%n";
+    awl_display_key = "[$Q:$H$C$S]";
+    awl_display_nokey = "[$N:$H$C$S]";
+
+    ### For Solarized trackbar.pl script
+    trackbar_style = "%B";
   };
 };
+
+hilights = (
+  { text = "Cakey"; color = "%M"; nick = "yes"; word = "yes"; },
+);
+
 windows = {
   1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
   2 = {
