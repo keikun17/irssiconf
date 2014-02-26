@@ -339,17 +339,14 @@ windows = {
       }
     );
   };
-  5 = { name = "hilight"; sticky = "yes"; };
+  9 = { name = "hilight"; sticky = "yes"; };
 };
 mainwindows = {
   1 = { first_line = "8"; lines = "41"; };
   5 = { first_line = "1"; lines = "7"; };
 };
-hilights = (
-  { text = "Cakey"; nick = "yes"; word = "yes"; },
-  { text = "Buddy"; nick = "yes"; word = "yes"; }
-);
 ignores = (
   { mask = "wuzzzzah"; level = "ALL"; },
   { mask = "wuzzzzaah"; level = "ALL"; }
 );
+logs = { };
