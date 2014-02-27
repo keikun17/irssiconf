@@ -101,7 +101,6 @@ chatnets = {
 
 channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
-  { name = "silc"; chatnet = "silc"; autojoin = "No"; },
   { name = "#phrug"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#rubyonrails"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#phackers"; chatnet = "Freenode"; autojoin = "yes"; },
@@ -303,8 +302,8 @@ settings = {
   };
 };
 
-hilights = (
-  { text = "Cakey"; color = "%M"; nick = "yes"; word = "yes"; },
+hilights = ( 
+  { text = "Cakey"; color = "%M"; nick = "yes"; word = "yes"; }
 );
 
 windows = {
